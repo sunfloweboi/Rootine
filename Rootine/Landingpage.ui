@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LandingPage</class>
+ <widget class="QWidget" name="LandingPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1083</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Imprint MT Shadow</family>
+    <pointsize>8</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: rgb(234, 228, 214);
+font: 8pt &quot;Imprint MT Shadow&quot;;
+item-align: center;}
+
+QProgressBar::chunk {
+    background-color: #EF8C24;
+	border-radius: 10px;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>270</y>
+     <width>511</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Imprint MT Shadow</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 150px;
+text-align: center;
+color: #403E2C;
+</string>
+   </property>
+   <property name="text">
+    <string>Rootine</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-90</x>
+     <y>190</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>-20</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #596020;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>120</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>-20</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>-70</x>
+     <y>260</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>340</y>
+     <width>141</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>-60</x>
+     <y>-10</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>60</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #596020;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>-60</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #596020;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #596020;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>120</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>600</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>400</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>640</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>440</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>540</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>300</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>340</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>600</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>380</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>520</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #596020;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>260</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #596020;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>560</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>350</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>620</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>470</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>290</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>490</y>
+     <width>341</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+color: black;
+border-style: none;
+border-radius: 10px;
+text-align: center;
+QProgressBar::chunk{background-color: #EF8C24;}
+</string>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="textVisible">
+    <bool>true</bool>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+   <property name="textDirection">
+    <enum>QProgressBar::TopToBottom</enum>
+   </property>
+  </widget>
+  <zorder>label_34</zorder>
+  <zorder>label_33</zorder>
+  <zorder>label_32</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_22</zorder>
+  <zorder>label_27</zorder>
+  <zorder>label_19</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_17</zorder>
+  <zorder>title</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_21</zorder>
+  <zorder>label_25</zorder>
+  <zorder>label_26</zorder>
+  <zorder>label_28</zorder>
+  <zorder>label_23</zorder>
+  <zorder>label_29</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_31</zorder>
+  <zorder>progressBar</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

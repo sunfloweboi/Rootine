@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: rgb(234, 228, 214);
+}
+#Title{
+font: 20pt &quot;Imprint MT Shadow&quot;;
+
+}
+#Title_2{
+font: 20pt &quot;Imprint MT Shadow&quot;;
+
+}</string>
+  </property>
+  <widget class="QLabel" name="Title_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Our Developer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Title">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Our Project</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_35">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>-60</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_36">
+   <property name="geometry">
+    <rect>
+     <x>-100</x>
+     <y>-70</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>-80</x>
+     <y>10</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>241</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>65011277 Chanasorn Howattanakulphong
+65011320 Kanokjan Singhsuwan
+65011381 Napatr Sapprasert
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>360</y>
+     <width>361</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Our goal is to develop a comprehensive Habit Tracker 
+ application that empowers users to establish, track, 
+ and maintain positive habits effectively. This app aims to 
+ provide a user-friendly interface coupled with a range
+ of features to cater to diverse habit-tracking needs.
+ The app will use Qt as the interface and ZODB as 
+ the database with Python as main language.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_38">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>570</y>
+     <width>141</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>gh</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #435d59;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_39">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>620</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d6ca51;
+border-radius: 50px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>600</y>
+     <width>165</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #EF8c24;
+border-radius: 50px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>Title_2</zorder>
+  <zorder>Title</zorder>
+  <zorder>label_35</zorder>
+  <zorder>label_37</zorder>
+  <zorder>label_36</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_38</zorder>
+  <zorder>label_39</zorder>
+  <zorder>label_40</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
